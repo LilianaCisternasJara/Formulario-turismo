@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Registro de Personas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="dinam.js"></script>
+    
+</head>
+<body>
+    <form action="" method="post" id="form"></form>
+    <h1> Registro de Datos</h1>
+    <h2> Por favor ingresa tus datos</h2>
+    </div>
+    
+    <div>
+        <label for="name"> Nombres y Apellidos </label>
+        <input type="text" name="textNombre" id="name" required>
+    </div>
+    <br><br>
+    <div>
+        <label for="age"> Edad </label>
+        <input type="number" name="age" id="age" min="1" max="110" required>
+    </div>
+    <br><br>
+    <div>
+        <label for="weight"> Peso (kg) </label>
+        <input type="number" name="weight" id="weight" min="1" max="500" required>
+    </div>
+    <br><br>
+    <div>
+        <label for="health"> Enfermedades </label>
+        <select name="select">
+            <option value="value 1">Si</option>
+            <option value="value 2">No</option>
+        </select>
+    </div>
+    <br><br>
+    <div>
+        <label for="allergy"> Alergias </label>
+        <input type="text" name="textNombre" id="allergy" required>
+    </div>
+    <br><br><br>
+    <button type="button" onclick="recogerDatos()">Aceptar</button>
+
+        
+    
+</body>
+
+</html>
